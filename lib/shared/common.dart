@@ -62,7 +62,7 @@ List<ListModel> superDealslist = [
   ListModel(
     image: Image.asset(
       "assets/superdeals/img1.jpg",
-      fit: BoxFit.fill,
+      fit: BoxFit.contain,
     ),
     text: 'Trending Deals',
     onTap: (context) {},
@@ -70,7 +70,7 @@ List<ListModel> superDealslist = [
   ListModel(
     image: Image.asset(
       "assets/superdeals/img2.jpg",
-      fit: BoxFit.fill,
+      fit: BoxFit.contain,
     ),
     text: 'Sale is Live',
     onTap: (context) {},
@@ -78,7 +78,7 @@ List<ListModel> superDealslist = [
   ListModel(
     image: Image.asset(
       "assets/superdeals/img3.jpg",
-      fit: BoxFit.fill,
+      fit: BoxFit.contain,
     ),
     text: 'Super Deals',
     onTap: (context) {},

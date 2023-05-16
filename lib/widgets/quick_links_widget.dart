@@ -9,13 +9,13 @@ Widget quickLinkWidget(BuildContext context) {
       height: 100.0,
       width: double.infinity,
       child: GridView.builder(
-          shrinkWrap: true,
+          // shrinkWrap: true,
           physics: ClampingScrollPhysics(),
           scrollDirection: Axis.horizontal,
           itemCount: lists.length,
           gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-              maxCrossAxisExtent: 350,
-              childAspectRatio: 2 / 2,
+              maxCrossAxisExtent: double.infinity,
+              childAspectRatio: 1,
               crossAxisSpacing: 0,
               mainAxisSpacing: 0),
           itemBuilder: (BuildContext context, int index) {

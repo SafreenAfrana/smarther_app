@@ -7,11 +7,12 @@ Widget bottomNavigationWidget(
   return BottomNavigationBar(
       currentIndex: currentIndex,
       selectedIconTheme: IconThemeData(
-        color: Colors.deepPurple[100],
+        color: Colors.deepPurple[700],
       ),
       showSelectedLabels: true,
+      selectedItemColor: Colors.deepPurple[700],
       selectedLabelStyle: TextStyle(
-        color: Colors.deepPurple[200],
+        color: Colors.deepPurple[700],
       ),
       unselectedItemColor: Colors.grey,
       showUnselectedLabels: true,
